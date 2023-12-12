@@ -132,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Zed Hosting, Inc. Built with <3 for you!>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Zed Hosting, Inc. Built with <3 by Us for You.`,
       },
       prism: {
         theme: prismThemes.github,
