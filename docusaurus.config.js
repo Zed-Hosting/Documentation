@@ -72,14 +72,16 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
+          /*{
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Docs',
-          },
-          {to: '/gaming/list', label: 'Gaming', position: 'left'},
-          {to: '/vps/bp', label: 'VPS', position: 'left'},
+          },*/
+          {to: '/docs/game-servers/intro', label: 'Gaming', position: 'left'},
+          {to: '/docs/virtual-private-servers/intro', label: 'VPS', position: 'left'},
+          {to: '/docs/web-servers/intro', label: 'Web', position: 'left'},
+          {to: '/docs/faq/powerdown', label: 'FAQ', position: 'left'},
           //{to: '/blog', label: 'Blog', position: 'left'},
           {to: 'https://zedhosting.net/link.php?id=1', label: 'Website', position: 'right'},
           {
@@ -99,15 +101,15 @@ const config = {
                 label: 'Welcome',
                 to: '/docs/intro',
               },
+              {
+                label: 'Getting Started',
+                to: '/gaming/intro',
+              },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/',
-              },
               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/',
@@ -123,16 +125,20 @@ const config = {
             items: [
               {
                 label: 'Gaming',
-                to: '/Gaming',
+                to: '/docs/game-servers/intro',
               },
               {
-                label: 'GitHub',
-                href: 'https://zedhosting.net/link.php?id=2',
+                label: 'VPS',
+                href: '/docs/virtual-private-servers/intro',
+              },
+              {
+                label: 'FAQ',
+                href: '/docs/faq/powerdown',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Zed Hosting, Inc. Built with <3 by Us for You.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Zed Hosting, Inc. Built with ❤️ by Us for You.`,
       },
       prism: {
         theme: prismThemes.github,
