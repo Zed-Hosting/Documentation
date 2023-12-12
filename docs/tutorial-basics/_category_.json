@@ -1,8 +1,8 @@
 {
-  "label": "General - Game Offerings",
+  "label": "General - Learn",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "List of Games"
+    "description": "How to USe"
   }
 }

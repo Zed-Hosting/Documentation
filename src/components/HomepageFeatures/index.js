@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Zed Hosting was built with 2 goals.  To change the industry pricing model and to be simple enough for anyone to use..
       </>
     ),
   },
@@ -18,18 +17,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Check out the Gaming section for an always up to date list of game offerings and events.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by AMD',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We suggest if you get a VPS that you follow our "Best Practices" guild to help protect your VM in a dangerous world .
       </>
     ),
   },

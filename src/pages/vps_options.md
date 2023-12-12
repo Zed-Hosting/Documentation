@@ -1,4 +1,0 @@
-# VPS Options
-
-``Get Rekt``
-
