@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome`}
+      description="Documentation Source for Zed Hosting.  Get How-To's on setting up Game Servers, Best Practices for your VPS's, and information on all of the features our Web Servers come with.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
