@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'wittyphantom333', // Usually your GitHub org/user name.
-  projectName: 'zedhosting', // Usually your repo name.
+  organizationName: 'Zed-Hosting', // Usually your GitHub org/user name.
+  projectName: 'Documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-           // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+           // 'https://github.com/Zed-Hosting/Documentation',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://docs.zedhosting.net_o4de3k0o5xl@docs.zedhosting.net/plesk-git/docs',
+          //editUrl:
+          //  'https://docs.zedhosting.net_o4de3k0o5xl@docs.zedhosting.net/plesk-git/docs',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -81,9 +81,9 @@ const config = {
           {to: '/gaming/list', label: 'Gaming', position: 'left'},
           {to: '/vps/bp', label: 'VPS', position: 'left'},
           //{to: '/blog', label: 'Blog', position: 'left'},
-          {to: 'https://zedhosting.net', label: 'Website', position: 'right'},
+          {to: 'https://zedhosting.net/link.php?id=1', label: 'Website', position: 'right'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://zedhosting.net/link.php?id=2',
             label: 'GitHub',
             position: 'right',
           },
@@ -122,12 +122,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Gaming',
+                to: '/Gaming',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://zedhosting.net/link.php?id=2',
               },
             ],
           },
