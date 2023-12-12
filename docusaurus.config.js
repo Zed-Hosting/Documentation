@@ -98,12 +98,20 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Welcome',
-                to: '/docs/intro',
+                label: 'Gaming',
+                to: '/docs/game-servers/intro',
               },
               {
-                label: 'Getting Started',
-                to: '/gaming/intro',
+                label: 'VPS',
+                to: '/docs/virtual-private-servers/intro',
+              },
+              {
+                label: 'Web',
+                to: '/docs/web-servers/intro',
+              },
+              {
+                label: 'FAQ',
+                to: '/docs/faq/powerdown',
               },
             ],
           },
