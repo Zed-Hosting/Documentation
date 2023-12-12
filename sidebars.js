@@ -37,7 +37,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'FAQ',
-      items: ['faq/powerdown'],
+      items: ['faq/powerdown','faq/playerslots'],
     },
   ],
 
